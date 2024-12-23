@@ -1,0 +1,71 @@
+.custom-scroll::-webkit-scrollbar {
+    width: 8px;
+}
+
+.custom-scroll::-webkit-scrollbar-track {
+    background: transparent; /* Transparent background */
+    border-radius: 10px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.custom-scroll::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+
+.custom-scroll {
+    scrollbar-width: thin;
+    scrollbar-color: #888 transparent; /* Transparent background */
+}
+.m1 {
+    background-image: url('./vegi.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: "Roboto Mono", serif;
+    font-optical-sizing: auto;
+}
+ .m1 h1{
+    /* color: #c6ffa9;
+    font-weight: 700; */
+    font-weight: lighter;
+    background-color: #CDDC39;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+}
+
+#t3{
+    font-size: 31px;
+    font-weight: lighter;
+    background-color: #CDDC39;
+    padding: 29px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+  .blurred-ul {
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    background: rgba(255, 255, 255, 0.2); /* Very transparent white background */
+    backdrop-filter: blur(10px); /* Apply blur to the background */
+    -webkit-backdrop-filter: blur(10px); /* Add for better compatibility */
+    border-radius: 10px; /* Optional: Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Shadow for better visibility */
+    /* width: 300px; */
+    backdrop-filter: blur(1px);
+  }
+  
+  .blurred-ul li {
+    margin: 10px 0;
+    padding: 5px;
+    text-align: center;
+    color: white; /* Text color to ensure readability */
+    font-size: 18px;
+    background-color: rgb(90 99 119);
+    font-weight: 600;
+  }
